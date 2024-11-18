@@ -8,10 +8,12 @@
     border-radius: 25px;
     transition-duration: 0.5s;
     justify-content: space-around;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
 }
 
 .main-container:hover{
     transform: scalex(1.1);
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
    
 }
 
