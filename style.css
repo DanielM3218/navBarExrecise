@@ -1,0 +1,46 @@
+.main-container{
+    display: flex;
+    height: 10vh;
+    width: 40vw;
+    margin: auto;
+    margin-top: 40vh;
+    background-color: rgb(0, 179, 255);
+    border-radius: 25px;
+    transition-duration: 0.5s;
+    justify-content: space-around;
+}
+
+.main-container:hover{
+    transform: scalex(1.1);
+   
+}
+
+button{
+    background-color: transparent;
+    border: transparent;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    transform: translateY(-10px);
+}
+
+.home-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.magnifying-glass{
+    height: 50px;
+    width: 50px;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+}
+
+.shopping-cart{
+    height: 50px;
+    width: 50px;
+}
